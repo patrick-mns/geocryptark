@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment and config
+.env
+.env.local
+*.local.js
+
+# Build output
+dist/*
+!dist/geocryptark.min.js
+!dist/geocryptark.min.js.map
+!dist/geocryptark.d.ts
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# Test and coverage
+coverage/
+*.test.js.snap
+
+# Data & temp
+data.json
+*.bak
+*.tmp
